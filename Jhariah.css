@@ -1,0 +1,452 @@
+/* Overall */
+body {
+    background-color: #5b7e97;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Overall Headers */
+h1 {
+    text-align: center;
+    margin: 2%;
+    font-size:6rem;
+}
+
+/* Overall Imgs */
+img {
+    width: 100%;
+}
+
+/* Overall Fonts */
+p, li{
+    font-family: 'Fredoka';
+}
+
+.tourItem>p, .tourLocation>p, h1, h2, h3{
+    font-family:'Instrument Serif';
+}
+
+/* Make each column 50% of the width */
+.row {
+    display: table;
+    width: 100%
+}
+
+/* NAVBAR ITEMS */
+
+
+/* Logo for navbar */
+.logo {
+    width: 4rem;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    overflow: hidden;
+    opacity: 2;
+}
+
+#navbar li {
+    font-size: 15;
+    float: right;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(32, 66, 102, 0.5);
+}
+
+/* Album Release Section */
+#albumRelease {
+    height: 100%;
+    background-color: #38607D;
+    background-image: url("Images/newrelease.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: black; */
+}
+
+#albumRelease>p {
+    position: absolute;
+    bottom: 23%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#albumAnnounce {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#albumName {
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Listen Now button */
+#albumAnnounce>a>button {
+    text-align: center;
+    display: flex;
+    background-color: #38607D;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}
+
+
+/* Mini Tour Section */
+
+#tourSection {
+    margin: 2%;
+    padding: 2%;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+/* Div for each item of tour */
+.tourItem {
+    width: 20%;
+    padding: 0%;
+    margin: 1% 0;
+    float: left;
+    text-align: center;
+}
+
+/* Make sure button is aligned */
+.tourLocation {
+    width: 20%;
+    padding: 0% 5% 0% 0%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+
+/* Div for each entry */
+.tourInfo {
+    margin: 1% 7%;
+    /* border-radius: 1rem; */
+    text-align: center;
+    background-color: #38607D;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Text for each entry */
+.tourInfo p {
+    font-size: 20;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+/* "More Info" button on tour section */
+.tourButton>p>a>button {
+    text-align: center;
+    display: inline;
+    background-color: #9B292C;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+/* 2-Column Setlist & About Section */
+
+/* Title */
+div>h2 {
+    margin: 5% 8% 5% 0%;
+    /* background-color: #4a5ead; */
+    font-size: 5rem;
+    text-align: center;
+}
+
+.twoColumn {
+    /* background-color: #5e7cf2; */
+    float: left;
+    width: 50%;
+}
+
+.twoColumn img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.twoColumn ol {
+    margin: 10%;
+    text-align: left;
+}
+
+.twoColumn ol>li {
+    font-size: 1.2rem;
+    padding: 2%;
+}
+
+.twoColumn>p {
+    text-align: left;
+    padding: 5%;
+    font-size: 2rem;
+}
+
+
+#setlistSection {
+    background-color: rgb(85, 85, 85, 0.5);
+}
+
+/* Merch */
+
+/* General Merch Section */
+#merchSection {
+    margin: 2%;
+    padding: 2%;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.container {
+    text-align: center;
+    padding: 0% 1rem;
+}
+
+.merchItem {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card {
+    background-color: #87A3B6;
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+    width: 23%;
+    padding: 0%;
+    margin: 1%;
+    float: left;
+}
+
+.card:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.container {
+    padding: 0% 1rem;
+}
+
+/* Gallery */
+
+#gallerySection {
+    padding: 5%;
+    background-color: #1F4764;
+}
+
+#gallerySection>h1 {
+    text-align: left;
+    font-size: 4rem;
+}
+
+.galleryCard {
+    background-color: rgb(240, 248, 255, 0.5);
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+    width: 45.9%;
+    padding: 0%;
+    margin: 1%;
+    float: left;
+}
+
+.galleryCardSmall>img {
+    object-fit: cover;
+}
+
+.galleryCardSmall {
+    background-color: rgb(240, 248, 255, 0.5);
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+    width: 22%;
+    padding: 0%;
+    margin: 1%;
+    float: left;
+}
+
+/* Music Section*/
+
+.music {
+    /* margin: ; */
+    padding: 2%;
+    background-color: rgb(0, 0, 0, 0.1);
+
+}
+
+.music>h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.musicCard {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+    width: 31%;
+    padding: 0%;
+    margin: 1%;
+    float: left;
+}
+
+.musicCard>a>button {
+    text-align: center;
+    display: flex;
+    background-color: #1F4764;
+    color: white;
+    padding: 1rem, 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}
+
+
+/* On screens that are 768 or less, apply a visible design/ layout change */
+@media screen and (max-width: 768px) {
+
+    #albumRelease>p {
+        position: absolute;
+        bottom: 35%;
+    }
+
+    body {
+        background-color: #376687;
+    }
+
+    /* Tour section margins */
+    #tourSection {
+        margin: 0.4%;
+    }
+
+    .tourItem {
+        width: 40%;
+        padding: 0%;
+        margin: 1% 0;
+        float: left;
+        text-align: center;
+    }
+
+    /* Make sure button is aligned */
+    .tourLocation {
+        width: 40%;
+        padding: 0% 5% 0% 0%;
+        margin: 1%;
+        float: left;
+        text-align: center;
+    }
+
+    
+    /* "Setlist" and "About" Section Layout Shift */
+    .twoColumn {
+        width: 100%;
+    }
+    
+    /* Gallery Card Column Drop*/
+    .galleryCard {
+        width: 98%;
+    }
+
+    .galleryCardSmall {
+        width: 48%;
+    }
+
+    /* Merch Column Drop */
+    .card {
+        width: 48%;
+    }
+
+    /* Music section column drop*/
+    .musicCard {
+        width: 48%;
+    }
+
+
+}
+
+
+/* On screens that are 576 or less, apply a visible design/ layout change */
+@media screen and (max-width: 576px) {
+    body {
+        background-color: rgb(115, 149, 173);
+    }
+
+    /* Tour section margins */
+    #tourSection {
+        margin: 2% 20% 2% 20%;
+    }
+
+    .tourItem {
+        width: 90%;
+        padding: 0;
+        margin: 0%;
+        text-align: center;
+    }
+
+    /* Make sure button is aligned */
+    .tourLocation {
+        width: 90%;
+        margin: 0%;
+        text-align: center;
+    }
+
+
+
+    /* Merch Column Drop */
+    .card {
+        width: 98%;
+    }
+
+    /* "Setlist" and "About" Section Layout Shift */
+    .twoColumn {
+        width: 100%;
+    }
+
+
+    /* Gallery Card Column Drop*/
+    .galleryCard {
+        width: 98%;
+    }
+
+    .galleryCardSmall {
+        width: 98%;
+    }
+
+    /* Music section column drop*/
+    .musicCard {
+        width: 98%;
+    }
+
+}
